@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Brown-codes/Social-links-profile.git)
+- Live Site URL: (https://brown-codes.github.io/Social-links-profile/)
 
 ## My process
 
