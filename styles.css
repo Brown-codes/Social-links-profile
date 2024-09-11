@@ -1,0 +1,86 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 12%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 30px;
+  border-radius: 15px;
+  width: 320px;
+  height: 540px;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.card h1 {
+  font-size: 25px;
+  margin: 25px auto 0;
+  font-weight: 600;
+}
+
+.card h3 {
+  font-size: 15px;
+  color: hsl(75, 94%, 57%);
+  margin: 5px auto 30px;
+  font-weight: 400;
+}
+
+.card p {
+  font-weight: 100;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.links button {
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 20%);
+  border: 0;
+  outline: 0;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    width: 220px;
+    height: 540px;
+  }
+}
